@@ -95,16 +95,16 @@ nav a:hover::before {
 
 .grid {
     display: grid;
-    padding: 50px;
-    grid-column-gap: 100px;
+    grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto auto auto auto auto;
 }
 
 
 .item-grid {
     background-color: #460505;
     font-family: 'Lato', sans-serif;
+    box-sizing:content-box;
     padding: 50px;
     font-size: 67px;
     right: 32px;
