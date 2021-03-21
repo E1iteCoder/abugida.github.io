@@ -93,13 +93,16 @@ nav a:hover::before {
     opacity: 1;
 }
 
-.table {
-    margin-right: 14px;
-    margin-left: 24px;
+.grid {
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 1px;
+    grid-row-gap: 10px;
+    grid-template-columns: 50px;
 }
 
 
-tr, th, td {
+.grid-item {
     background-color: #460505;
     font-family: 'Lato', sans-serif;
     padding: 50px;
