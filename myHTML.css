@@ -102,7 +102,7 @@ nav a:hover::before {
 }
 
 
-.grid-item {
+.item-grid {
     background-color: #460505;
     font-family: 'Lato', sans-serif;
     padding: 50px;
