@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-image: linear-gradient(black, grey, white);
     background-repeat: no-repeat;
+    max-width: 100%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     overflow:scroll;
