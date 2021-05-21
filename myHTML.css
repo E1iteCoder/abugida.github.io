@@ -12,14 +12,14 @@ body {
 .container {
     position:relative;
     width: 100%;
-    margin: 2px 0;
+    margin: .1% 0;
     background-color: green;
 }
 
 
 
 .logo {
-    width: 125px;
+    width: 35%;
     height: 50px;
     justify-content: left;
     opacity: 0.5;
