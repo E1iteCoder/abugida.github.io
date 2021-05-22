@@ -19,11 +19,11 @@ body {
 
 
 .logo {
-    width: 135px;
-    height: 50px;
+    width: 7%;
+    height: 4.6%;
     justify-content: left;
     opacity: 0.5;
-    border: 3px solid maroon;
+    border: .15% solid maroon;
     
 }
 
@@ -38,7 +38,7 @@ header::after {
 
 nav {
     float: right;
-    padding-right: 16px;
+    padding-right: .83%;
 
 }
 
@@ -47,13 +47,13 @@ nav ul {
     margin-right: 0;
     margin-left: 0;
     padding: 0;
-    border: 16px hidden rgb(185, 146, 146);
+    border: .83% hidden rgb(185, 146, 146);
 }
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
+    margin-left: 3.64%;
+    padding-top: 2.12%;
     font-size: 16px;
     position:relative;
     
@@ -74,7 +74,7 @@ nav a:hover {
 nav a::before{ 
     content: '';
     display: block;
-    height: 5px;
+    height: .46%;
     width: 100%;
     background-color: #ff8800;
 
@@ -91,7 +91,7 @@ nav a:hover::before {
 }
 
 .logo:hover {
-    opacity: 1;
+    opacity: .5;
 }
 
 .grid {
@@ -108,9 +108,9 @@ nav a:hover::before {
     box-sizing:border-box;
     padding: 50px;
     font-size: 67px;
-    right: 32px;
+    right: 4.27%;
     color: greenyellow;
-    border: 3.2px solid maroon;
+    border: .17 solid maroon;
     border-radius: 4px;
     
 }
